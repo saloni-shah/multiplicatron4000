@@ -4,7 +4,11 @@
   "description": "sample app showing multiplication functionality of numbers",
   "main": "server/server.js",
   "scripts": {
+    "postinstall" : "browserify client/app.js -o client/bundle.js",
     "start": "node server/server.js"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "browserify": "^14.3.0"
+  }
 }
