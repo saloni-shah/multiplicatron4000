@@ -1,0 +1,10 @@
+{
+  "name": "Multiplicatron",
+  "version": "0.1.0",
+  "description": "sample app showing multiplication functionality of numbers",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "license": "MIT"
+}
